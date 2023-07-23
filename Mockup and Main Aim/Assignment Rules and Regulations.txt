@@ -1,0 +1,32 @@
+Hello,
+Thanks for applying for the Front-End developer Internship at Ultimate Resource Kit. 
+
+As a next step in our hiring process, we would like to invite you to complete a task that will help us evaluate your technical capabilities.
+
+Task: The challenge is to create a responsive HTML Interface based on the mockups here: https://drive.google.com/file/d/1Q26UBSbpoyNm42CmvhAdU-jYfXVnSKrf/view?usp=sharing
+
+1. You can use Static data, no database integration is required
+2. You can use single HTML page or multiple to implement tabs
+3. Use any JavaScript charts library to implement charts but make sure they look like mockups  
+4. Use icons and other assets you can find which are similar to the mockup 
+
+Evaluation Criteria:
+1. Similarity of your page to the mockups
+2. Responsiveness of the page and support for Mobile browsers
+3. You must host your page on a publicly accessible link
+
+Deliverable: 
+1. Working Link / URL to hosted page (Required)
+2. Zip file of your code
+
+Please submit ONLY via MakeList Page here: 
+https://makelist.io/form.html?listid=2905c36e-a9f7-41c9-b48c-020804421968&orgid=440f21d1-ed57-4355-9082-552bfc409eb2
+
+Deadline: Sunday, July 23 11:59 p.m. IST
+
+Thanks,
+URK Team
+Submission deadline: 23 July, 2023
+
+
+using javascript charts library, draw a bar graph that has number of 
