@@ -1,0 +1,553 @@
+ @font-face {
+            font-family: 'CustomFont';
+            src: url('../Assets/lato/Lato-Medium.ttf') format('truetype'); 
+}
+
+.welcome{
+    margin-top: -10px;
+    color: grey;
+    font-size: medium;
+}
+
+
+.AB{
+    margin-top: -25px;
+}
+
+.YTD , .TI{
+    margin-top: -20px;
+}
+
+.IwantTo{
+    background-color: #4935ff;
+    align-items: center;
+    padding: 20px 30px 20px 30px;
+    border-radius: 15px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.purple{
+    color:#4935ff;
+    font-weight: bold;
+}
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'CustomFont'; 
+}
+
+.off-white{
+    color: grey;
+}
+
+.violet{
+    color: #968aff;
+}
+
+.percentage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+.navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #c0bbbb;
+    color: #fff;
+    height: 800px; 
+    position: fixed;
+    left: 0;
+}
+
+.start-icons,
+.middle-icons,
+.end-icons {
+
+    cursor: pointer;
+}
+
+.home{
+    filter: hue-rotate(240deg);
+}
+.middle-icons {
+    flex-grow: 1; /* This allows the middle-icons div to fill the available space */
+}
+
+/* Adjust the styling of the icons as needed (e.g., size, colors, etc.) */
+img,
+svg {
+    width: 24px;
+    height: 24px;
+    margin: 0 5px;
+}
+
+.Withdrawal{
+    font-size: large;
+}
+
+
+
+
+
+
+
+
+
+/* Media query for screens smaller than 768px (typical phone width) */
+@media (max-width: 767px) {
+    .navbar {
+        flex-direction: row-reverse; /* Stack the elements vertically */
+        height: auto; /* Reset height to fit content */
+        padding-bottom: 10px;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding-right: 20px;
+    }
+
+
+.Withdrawal{    
+    margin-top: -10px;
+    margin-bottom: -5px;
+}
+
+
+
+    .IwantTo{
+        text-align: center;
+        padding-left: 140px ;
+        padding-right: 140px;
+    }
+
+
+    .financial-1{
+        padding-left: 15px ;
+    }
+
+    .linelength-1{
+        width: 500px;
+        align-self: center;
+    }
+
+    .MG, .ThreeHun{
+        font-size: x-large;
+    }
+
+    .ThreeHun, .ThreeHund{
+        margin-left: 80px;
+    }
+
+    .linelength-2 , .linelength-3{
+        width: 200px;
+    }
+
+    .linelength-2{
+        margin-left: -10px;
+    }
+
+    .financial-2-2{
+        padding-left: 30px;
+    }
+
+    .financial-2-3{
+        margin-top: -115px;
+        margin-left: 185px;
+    }
+
+    .CO{
+        font-size: x-large;
+        padding-left: 10px;
+    }
+
+    .average{
+        padding-left: 55px;
+    }
+
+    .top{
+        padding-left: 100px;
+    }
+
+    .me{
+        padding-left: 120px;
+    }
+
+    .JS-chart{
+        padding-left: 30px;
+    }
+
+
+    .financial-4-1{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .financial-4{
+        padding-left: 15px;
+    }
+
+
+    .financial-2-1{
+        padding-left: 20px;
+    }
+
+    .retirement{
+        background-color:  rgb(241, 241, 241);
+        border-radius: 50px;
+    }
+
+    .Three{
+        font-size: xx-large;
+        margin-bottom: -15px;
+    }
+
+    .stats{
+        height: 250px;
+        width: 450px;
+        align-self: center;
+    }
+
+    .pill-container{
+        display: flex;
+    }
+
+    .SY{
+        margin-top: -20px;
+        font-size: xx-large;
+    }
+
+
+
+
+    .NoMobile{
+        display: none;
+    }
+
+    .Update{
+        width: 500px;
+        justify-self: center;
+
+    }
+
+    .Percent{
+        text-align: center;
+        font-size: xx-large;
+        margin-top: -30px;
+    }
+
+    .EC, .ER{
+        font-size: larger;
+        margin-bottom: -30px;
+    }
+
+    .RS{
+        text-align: left;
+        padding-left: 25px;
+        font-size: xx-large;
+    }
+
+    .EC-1, .IR-1 {
+        text-align: left;
+        padding-left: 25px;
+    }
+
+    .EC-2{
+        padding-left: 50px;
+    }
+
+    .IR-2{
+        padding-left: 135px;
+    }
+
+
+
+
+
+    
+    .start-icons,
+    .middle-icons,
+    .end-icons {
+        margin-top: 10px; /* Add some spacing between the sections */
+        display: flex;
+        justify-content: space-evenly; 
+        gap: 10px;
+    }
+
+    .profile-top{
+        display: flex;
+    }
+
+
+    .profile-image{
+        height: 80px;
+        width: 80px;
+        margin-top: 10px;
+        border-radius: 50px;
+    }
+
+
+
+    .middle-icons {
+        flex-wrap: wrap; /* Allow icons to wrap to the next line */
+    }
+
+    /* Adjust the styling of the icons for mobile view as needed */
+    img,
+    svg {
+        width: 30px;
+        height: 30px;
+    }
+
+    .butterfly, .exit{
+        display: none;
+    }
+
+    .bell{
+        position: fixed;
+        top: 0;
+        padding-top: 10px;
+        padding-right: 10px;
+        right: 0;
+    }
+    
+    .profile{
+        margin: 50px;
+    }
+
+    .Contributions{
+        display: none;
+    }
+
+    .profile-middle-middle{
+        display: flex;
+    }
+
+    .profile-middle-middle-1 , .profile-middle-middle-2{
+        margin: 10px;
+    }
+
+    .profile{
+        background-color: rgb(241, 241, 241);
+        padding: 15px;
+        border-radius: 15px;
+
+    }
+
+
+
+}
+
+/* Media query for screens BIGGER than 768px (typical Desktop width) */
+@media (min-width: 767px){ 
+
+    .SY{
+        margin-top: -15px;
+        font-size: 30px;
+    }
+
+    
+    .pill-container{
+        display: flex;
+    }
+
+    .a{
+        padding-bottom: 20px;
+    }
+
+
+
+
+
+
+
+    .Main{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .financial{
+        display: flex;
+        width: 700px;
+        flex-direction: column;
+        padding-left: 50px;
+        padding-right: 50px;
+        margin-top: -100px;
+    }
+
+    .start-icons,
+    .middle-icons,
+    .end-icons {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .start-icons{
+        margin-top: 15px;
+    }
+
+    .middle-icons{
+        margin-top: 80px;
+    }
+
+    .end-icons{
+        margin-bottom: 30px;
+    }
+
+
+    .profile{ 
+        margin-left: 50px;
+        padding: 30px;
+        width: 200px;
+        background-color: rgb(241, 241, 241);
+
+    }
+
+    .profile-top{
+        display: flex;
+    }
+
+    .profile-image{
+        height: 80px;
+        width: 80px;
+        margin-top: 10px;
+        border-radius: 50px;
+    }
+
+    .grey-line{
+        margin: 0;
+        width: 100%;
+        color: #b7b7b7;
+    }
+
+    .financial-1{
+        margin-top: 65px;
+    }
+
+    .financial-2{
+        display: flex ;
+        flex-direction: row;
+    }
+
+    .pad{
+        padding: 10px;
+    }
+
+    .linelength{
+        width: 200px;
+    }
+
+    .slider-container-container{
+        display: flex;
+    }
+
+    .slider-contain{
+        margin-top: -40px;
+        margin-bottom: -50px;
+        width: 280px;
+    }
+
+    .retirement{
+        margin-bottom: 250px;
+    }
+
+    .spaced-words{
+        white-space: nowrap;
+    }
+
+    .stats{
+        height: 250px;
+        width: 550px;
+    }
+
+    .average{
+        padding-left: 25px;
+    }
+
+    .top{
+        padding-left: 65px;
+    }
+
+    .me{
+        padding-left: 95px;
+    }
+
+    .financial-4-1{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .financial-4-1-2{
+        margin-right: 200px;
+    }
+
+    .Update{
+        width: 300px;
+        cursor:pointer;
+    }
+
+    .HB{
+        margin-top: -15px;
+        font-size: larger;
+    }
+
+    .navbar{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+
+
+
+
+
+}
+
+
+
+.VHD{
+    color: #4935ff;
+    cursor: pointer;
+    /* text-decoration: underline; */
+    text-align: center;
+}
+
+
+
+
+.JS-chart{
+    width: 100px;
+    height: 100px;
+}
+
+.pill{
+    border-radius: 50px;
+    height: 5px;
+    width: 10px;
+    margin-bottom: 3px;
+}
+
+.grey{
+    color: gray;
+}
+
+
+.LM{
+    color: #4935ff;
+    cursor: pointer;
+}
+
+.navbar{
+    background-color: aliceblue;
+}
+
