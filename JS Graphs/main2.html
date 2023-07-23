@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Progress Circles with D3.js</title>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <style>
+
+
+        .chart-container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 200px;
+        }
+
+        .chart {
+            position: relative;
+            width: 100px;
+            height: 100px;
+        }
+
+        .percentage {
+            position: absolute;
+            top: 0;
+            left: 0;
+            font-size: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="chart-container">        
+        <div class="chart" id="chart1"></div>
+        <div class="chart" id="chart2"></div>
+        <div class="chart" id="chart3"></div>
+    </div>
+    <script src="script2.js"></script>
+</body>
+</html>
